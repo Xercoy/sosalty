@@ -1,4 +1,4 @@
-package main
+package sosalty
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "The salt is real.")
 }
 
-func main() {
+func RunServer() {
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
 }
