@@ -1,7 +1,7 @@
 package main
 
-import "github.com/xercoy/sosalty"
+import "github.com/xercoy/yousosalty"
 
 func main() {
-	sosalty.RunServer()
+	yousosalty.RunServer()
 }
